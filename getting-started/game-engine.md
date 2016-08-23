@@ -1,3 +1,6 @@
+There are several ways to get started producing VR content. This tutorial outlines the process of using
+the Unity game engine to deploy a Cardboard App to an Android phone.
+
 # What is a game engine?
 A game engine is a piece of software that provides patterns and abstractions that
 make it faster and easier to create content. While they have the word "game" in the
@@ -12,7 +15,10 @@ Unity provides patterns and tooling to support your development process, but the
 biggest benefit of using one of the big game engines is the community it provides.
 There's a really robust library of tutorials (I recommend [Space Shooter](https://unity3d.com/learn/tutorials/projects/space-shooter-tutorial)), provided both by Unity and independent
 developers, as well as a ton of assets, many of which are available for free, that
-can be accessed through the Unity Asset Store.
+can be accessed through the Unity Asset Store. For the purpose of this tutorial, we're going to import assets from the Google VR SDK.
+
+#Download the SDK
+An SDK is a set of software development tools, typically provided by the maintainer of a platform or system, to make it easier for developers interact with that product. You can download Google's VR SDK, which we'll use to launch a Cardboard application, [here](https://developers.google.com/vr/concepts/overview-cardboard). In this tutorial, we'll simply play the demo scene, but there's a lot of fun stuff to play around with in their.
 
 #Setup to deploy to an Android phone
 The first thing you'll want to do is download [Android Studio](https://developer.android.com/studio/index.html) and follow the installation instructions. You'll need the path to the Android SDK later, so make sure you store it somewhere on your computer you find easy to access. If you're working on a Mac, you'll also need to make sure you have [Android File Transfer](https://www.android.com/filetransfer/).
