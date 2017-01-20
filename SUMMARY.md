@@ -14,6 +14,7 @@
     * [Software](tech/software.md)
       * [What we have access to in the Lab](tech/software.md#ours)
 * [How can I get started making VR content?](getting-started/README.md)
+    * [How to build a Unity project on iOS?](getting-started/unity-to-iOS-build.md)
     * [Your first game engine project](getting-started/game-engine.md)
     * [Your first 360 video project](getting-started/360-video.md)
     * [Your first WebVR project](getting-started/webvr.md)
